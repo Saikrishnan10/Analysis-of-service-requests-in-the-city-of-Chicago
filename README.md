@@ -36,7 +36,7 @@ Four datasets from the data.cityofchicago.org repository for this analysis. Socr
  
  ### **Storage of Structured data:**
  
-Using the pandas package present in python, the four CSV datas were transformed into a data frame and was subjected to data cleaning process. After cleaning and transforming data, structured data were stored and saved individually in CSV format into a Relational database, a PostgreSQL DB. With the help of the psycopg2 package, a connection is made with the localhost. Then pandas data frames are created using the pandas.io.sql package in Python to extract the data from this table.
+Using the pandas package present in python, the four CSV datas were transformed into a data frame and was subjected to data cleaning process. After cleaning and transforming data, structured data were stored and saved individually in CSV format into a Relational database, a PostgreSQL DB. With the help of the psycopg2 package, a connection is made with the localhost. Then pandas data frames are created using the pandas.io.sql package in Python to extract the data from this table. The four structured data are available under the file names (Tree Trims Data, Rodent Infestation Data, Garbage Data and Potholes Data)
 
 ### **Data Visualization:**
 
