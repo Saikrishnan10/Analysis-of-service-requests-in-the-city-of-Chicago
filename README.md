@@ -1,4 +1,4 @@
-## **Analysis-of-service-requests-in-the-city-of-Chicago**
+## **Analysis of service requests in the city of Chicago**
 ## **Project Summary:**
 
 The project focuses on several forms of Service Request complaints in Chicago. The data is received from government sites via APIs and saved in MongoDB as unstructured JSON format. It is then turned into structured data frames using Python, which are subsequently cleaned using library functions such as Pandas and NumPy. The clean data is stored in PostgreSQL, and the analysis is performed using the Python library tools Matplotlib and Folium.
